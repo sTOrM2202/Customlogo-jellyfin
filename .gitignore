@@ -2,6 +2,7 @@ node_modules/
 dist/
 .vs/
 bin/
+libs/
 obj/
 *.user
 *.suo
