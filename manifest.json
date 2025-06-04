@@ -6,7 +6,7 @@
     "overview": "Allows uploading a custom logo to replace Jellyfin branding.",
     "owner": "sTOrM2202",
     "category": "General",
-    "imageUrl": "https://github.com/sTOrM2202/Customlogo-jellyfin/blob/main/static/icon.png",
+    "imageUrl": "https://raw.githubusercontent.com/sTOrM2202/Customlogo-jellyfin/main/static/icon.png",
     "versions": [
       {
         "version": "1.0.0",
