@@ -1,78 +1,79 @@
-# Jellyfin Custom Logo Plugin
+# 🖼️ Jellyfin Custom Logo Plugin
 
-This plugin allows you to replace the default Jellyfin logo with your own custom image via an upload interface.
-
-## 📦 Features
-
-- Upload a custom logo image through the Jellyfin dashboard.
-- Automatically replaces default Jellyfin logos.
-- Compatible with Jellyfin 10.10.6 and above.
-- Designed for future version compatibility.
-
----
-# Jellyfin Custom Logo Plugin
-
-This plugin allows you to replace the default Jellyfin logo with your own custom image via an upload interface.
+> Replace the default Jellyfin logo with your own via the web interface.  
+> Remplacez le logo par défaut de Jellyfin par le vôtre via l'interface web.
 
 ---
 
-## 🛠️ Installation Steps
+## 📦 Features / Fonctionnalités
 
-### Access Jellyfin Dashboard:
+- ✅ Upload your own logo via the Jellyfin dashboard  
+  Téléversez votre logo personnalisé depuis l'interface de Jellyfin  
+- 🎯 Automatically replaces all default logos  
+  Remplace automatiquement les logos d’origine  
+- 🧩 Compatible with Jellyfin **10.10.6+**  
+  Compatible avec Jellyfin **10.10.6 et versions supérieures**  
+- 🔄 Future-proof plugin architecture  
+  Architecture du plugin pensée pour l’avenir  
 
-- Navigate to your Jellyfin server's dashboard.
+---
 
-### Add Plugin Repository:
+## 🛠️ Installation
 
-1. Go to `Plugins` > `Repositories`.
-2. Click on `+` to add a new repository.
-3. Enter the following details:
+### 🌐 EN - Install via plugin repository
+
+1. Go to `Dashboard > Plugins > Repositories`
+2. Click `+` and add:
    - **Name:** `CustomLogoPlugin`
-   - **URL:**  
+   - **URL:**
      ```
-     https://github.com/sTOrM2202/Customlogo-jellyfin/blob/main/manifest.json
+     https://raw.githubusercontent.com/sTOrM2202/Customlogo-jellyfin/main/manifest.json
      ```
-4. Click **Save**.
-
-### Install the Plugin:
-
-- Navigate to `Plugins` > `Catalog`.
-- Find **Custom Logo** in the list.
-- Click **Install**.
-
-### Restart Jellyfin:
-
-- After installation, restart your Jellyfin server to apply changes.
+3. Click **Save**
+4. Go to `Plugins > Catalog`, search for `Custom Logo`, and click **Install**
+5. Restart Jellyfin
 
 ---
 
-## 🎨 Uploading Your Custom Logo
+### 🌐 FR - Installation via dépôt de plugin
 
-### Access Plugin Configuration:
-
-- Go to `Plugins` > `Custom Logo`.
-
-### Upload Logo:
-
-- Use the provided interface to upload your custom logo image.
-- Ensure the image is in **PNG format** for best compatibility.
-
-### Apply Changes:
-
-- After uploading, the plugin will handle replacing the default Jellyfin logos with your custom image.
+1. Allez dans `Tableau de bord > Plugins > Dépôts`
+2. Cliquez sur `+` et ajoutez :
+   - **Nom :** `CustomLogoPlugin`
+   - **URL :**
+     ```
+     https://raw.githubusercontent.com/sTOrM2202/Customlogo-jellyfin/main/manifest.json
+     ```
+3. Cliquez sur **Sauvegarder**
+4. Allez dans `Plugins > Catalogue`, cherchez `Custom Logo`, et cliquez sur **Installer**
+5. Redémarrez Jellyfin
 
 ---
 
-## 🔄 Compatibility
+## 🎨 Logo Upload / Téléversement du logo
 
-This plugin is designed to be compatible with **Jellyfin version 10.10.6 and above**.  
-It utilizes standard plugin APIs to ensure functionality with future Jellyfin updates.
+### EN
+
+- Go to `Plugins > Custom Logo`
+- Upload a PNG image
+- The plugin will automatically replace the default Jellyfin logo
+
+### FR
+
+- Allez dans `Plugins > Custom Logo`
+- Téléversez une image au format **PNG**
+- Le plugin remplacera automatiquement le logo de Jellyfin
 
 ---
 
-## 📄 License
+## ✅ Compatibility / Compatibilité
 
-MIT License
+> Jellyfin **v10.10.6** and above  
+> Jellyfin **v10.10.6** et supérieur
 
+---
 
+## 📄 License / Licence
 
+This plugin is licensed under the **MIT License**  
+Ce plugin est sous licence **MIT**
